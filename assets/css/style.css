@@ -1,0 +1,82 @@
+body {
+    padding-top: 56px;
+}
+
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.product-image {
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.quantity-input {
+    width: 70px;
+}
+
+.add-to-cart {
+    transition: all 0.3s;
+}
+
+.add-to-cart:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: auto;
+}
+
+.alert {
+    margin-bottom: 20px;
+}
+
+.table th {
+    border-top: none;
+}
+
+.badge {
+    font-size: 0.8em;
+}
+
+.btn {
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .carousel-item {
+        height: 300px;
+    }
+    
+    .display-4 {
+        font-size: 2rem;
+    }
+}
